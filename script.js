@@ -4,7 +4,7 @@ const todoList = document.querySelector('.todo-list');
 const filterOption = document.querySelector('.filter-todo');
 
 // Event Listeners
-document.addEventListener('DOMContentLoaded', getTodos);
+document.addEventListener('DOMContentLoaded', getLocalTodos);
 todoButton.addEventListener('click', addTodo);
 todoList.addEventListener('click', deleteCheck);
 filterOption.addEventListener('click', filterTodo);

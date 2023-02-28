@@ -96,7 +96,7 @@ function saveLocalTodos(todo) {
     localStorage.setItem('todos', JSON.stringify(todos));
 }
 
-function getTodos(todo) {
+function getLocalTodos() {
     // Check if I already have things in there
     let todos;
     if (localStorage.getItem('todos') === null) {
